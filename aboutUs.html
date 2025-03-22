@@ -239,8 +239,18 @@
         </section>
     </footer>
 </body>
+<script src="assets/js/script.js"></script>
+<script>
+    console.log("Page: " + window.location.pathname);
 
-<script src="assets/js/script.js">
+    let navLinks = document.querySelectorAll("nav a");
 
+    navLinks.forEach(link => {
+        let linkHref = link.getAttribute("href");
+
+        if (window.location.pathname.includes(linkHref)) {
+            link.style.color = "rgb(255, 207, 84)";
+        }
+    });
 </script>
 </html>

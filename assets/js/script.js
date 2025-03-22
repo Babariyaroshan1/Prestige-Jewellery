@@ -1,6 +1,4 @@
-
-
-//nav
+//navbar
 document.addEventListener("DOMContentLoaded", function () {
     const toggler = document.querySelector(".navbar-toggler");
     const menu = document.querySelector(".nav-menu");
@@ -10,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// video
+// videoplayer
 
 const videoBox = document.getElementById("videoBox");
 const thumb = document.getElementById("play-button");

@@ -566,6 +566,11 @@ header {}
         display: none;
     }
 }
+@media (min-width: px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
 
 .primary-btn {
     display: inline-block;

@@ -86,6 +86,7 @@
                         </button>
                     </div>
                 </nav>
+                
                 <div class="row justify-content-evenly">
                     <div class=" col-md-6 col-lg-6"></div>
                     <div class=" col-md-6 col-lg-6">
@@ -170,18 +171,5 @@
     </footer>
 
 </body>
-<script>
-    console.log("Page: " + window.location.pathname);
-
-    let navLinks = document.querySelectorAll("nav a");
-
-    navLinks.forEach(link => {
-        let linkHref = link.getAttribute("href");
-
-        if (window.location.pathname.includes(linkHref)) {
-            link.style.color = "rgb(255, 207, 84)";
-        }
-    });
-</script>
-
+<script src="assets/js/script.js"></script>
 </html>
